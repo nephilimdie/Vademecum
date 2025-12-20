@@ -2,7 +2,7 @@
 
 ## What it is
 
-The **Options Pattern** is a design approach to manage application configuration by grouping related settings into a **dedicated configuration object** (an â€œoptionsâ€ object) instead of spreading environment variable reads or string-based configuration keys across the codebase.
+The **Options Pattern** is a design approach to manage application configuration by grouping related settings into a **dedicated configuration object** instead of spreading environment variable reads or string-based configuration keys across the codebase.
 
 In PHP, this typically means:
 - defining a class that represents a coherent configuration domain (SMTP, Redis, Payments, Feature Flags, etc.)
